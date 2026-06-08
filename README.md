@@ -3,7 +3,7 @@
 This repository contains the official implementation of **Scale-Aware Contrastive Reverse Distillation for Unsupervised Medical Anomaly Detection**, accepted by ICLR 2025.
 
 <p align="center">
-  <img src="assets/architecture.png" width="900" alt="Network architecture of SCRD4AD">
+  <img src="./architecture.png" width="900" alt="Network architecture of SCRD4AD">
 </p>
 
 

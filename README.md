@@ -46,13 +46,13 @@ datasets/
 
 Update the dataset path in the configuration file before training and testing.
 
-## Training and Evaluation
+## Training
 
-Run the following command to train SCRD4AD on the RSNA dataset:
+Run the following command to train SCRD4AD on medical datasets:
 
 ```bash
 python train_rsna.py --img_path /path/to/images --json_path /path/to/annotations.json --gpu 0
-
+```
 
 > Note: Please modify the script names and arguments according to the actual code in this repository.
 

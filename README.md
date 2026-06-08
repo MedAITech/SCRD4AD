@@ -34,17 +34,14 @@ pip install numpy==1.20.3 scipy==1.7.1 scikit-learn==1.0 Pillow==8.3.2
 
 ## Dataset
 
-Please organize the dataset as follows:
+We evaluate SCRD4AD on three medical anomaly detection datasets.
 
-```text
-datasets/
-└── <dataset_name>/
-    ├── train/
-    ├── test/
-    └── ground_truth/
-```
+**RSNA:** We use 3,851 normal images for training and 2,000 images for testing, including 1,000 normal and 1,000 abnormal images.
 
-Update the dataset path in the configuration file before training and testing.
+**Brain Tumor MRI:** We use 1,000 normal slices for training and 1,200 slices for testing, including 600 normal and 600 abnormal slices.
+
+**ISIC 2018:** We use nevus as the normal class, with 6,705 normal images for training and 1,512 images for testing.
+
 
 ## Training
 
